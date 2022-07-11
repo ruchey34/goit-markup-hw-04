@@ -168,7 +168,7 @@ ul{
     color: var(--header-bg-color);
     font-weight: 900;
     font-size: 44px;
-    line-height: 1.16;
+    line-height: 1.36;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
@@ -380,7 +380,8 @@ ul{
     justify-content: center;
     align-items: center;
     color: inherit;
-    border: 1px solid #afb1b8;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
 }
 .client-list-link:hover,
 .client-list-link:focus {
@@ -429,8 +430,10 @@ ul{
     gap: 70px;
 }
 .footer-box{
-    display: inline-block;
-    width: 261px;
+    display: flex;
+}
+.footer-address{
+    margin-right: 70px;
 }
 .footer-link{
     color: rgba(255, 255, 255, 0.6);
@@ -448,7 +451,6 @@ ul{
     display: inline-block;
     left: 516px;
     width: 206px;
-    margin-top: 20px;
 }
 .social-media-paragraph{
     font-family: 'Roboto';
@@ -459,7 +461,6 @@ ul{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #FFFFFF;
-    margin-top: 12px;
 }
 .portfolio{
     padding-top: 94px;
